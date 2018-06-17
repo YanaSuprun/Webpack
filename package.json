@@ -12,7 +12,14 @@
     "webpack-dev-server": "^3.1.4",
     "webpack": "^4.12.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.9.0",
+    "resolve-url-loader": "^2.3.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0"
+  },
   "scripts": {
     "build": "npx webpack",
     "dev": "npx webpack-dev-server --hot --inline"

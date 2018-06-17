@@ -96,7 +96,20 @@
 "use strict";
 
 
+__webpack_require__(/*! ./scss/main.scss */ "./src/scss/main.scss");
+
 alert('it works!!!');
+
+/***/ }),
+
+/***/ "./src/scss/main.scss":
+/*!****************************!*\
+  !*** ./src/scss/main.scss ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 
